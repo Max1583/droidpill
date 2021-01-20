@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');:root {
+    --white: whitesmoke;
+    --black:#01303d;
+    --mainbg: #202122;
+    --navbg:#202122d2;
+    --dropdown:#013948;
+   --grey:  #c8c8c8 ;
+   --gold: rgb(219, 187, 5);
+   --green:rgb(35, 189, 35);
+   --lightblue:rgb(7, 199, 233);
+   --montserat:
+   --cursor:pointer;
+   --footer:rgb(153, 153, 153);
+   --body:#6c757d;
+   --bg: #002b36;
+   --bg2: #073642;
+   --bg3: #073642;
+   --bg4: #021e25;
+   --top1: #013948;
+   --top2: #011c23;
+   --link:rgb(42, 161, 152);
+   --linkhover: #b58900;
+  }
+
+
+html{
+    cursor: url(glog/cursor2.png), auto !important;
+
+    background: var(--bg);
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: var(--bg)  ;
+    cursor: url(glog/cursor2.png), auto !important;
+   
+color: var(--white);
+
+}
+a{
+    cursor: url(glog/cursor2.png), auto !important;
+
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Rubik', sans-serif;
+}
+
+img{
+    filter: brightness(.9) contrast(1.0);
+}
+.primary-text{
+    color:rgb(147, 161, 161)    !important;
+    font-weight:normal !important;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+nav{
+    background:linear-gradient(to right, var(--top1), var(--top2));
+}
+#logo_container{
+width: fit-content;
+}
+.fa-home{
+    margin-right: 2px;
+}
+.logo{
+    width:220px;
+     height:50px;
+}
+.nav-link{
+    color: var(--white);
+    font-size: 18px;
+}
+.nav-link:hover{
+color: var(--grey);
+}
+.nav-item{
+    margin: 0px 10px;
+    padding:0px 10px ;
+}
+.dropdown-item:hover{
+background: var(--gold);
+color: var(--white);
+}
+.dropdown-item{
+    color:var(--grey) ;
+    }
+.dropdown-menu{
+    background: var(--dropdown);
+}
+.nav-item{
+transition: all 1s ease-in-out;
+}
+.nav-item:hover{
+    border-bottom:2px solid rgb(7, 212, 7);
+}
+
+
+main{
+    margin-top: 80px;
+    position: relative;
+    padding: 10px;
+}
+.main div img{
+    width:100%;
+    height:100%;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+display: block;
+transition: all 1s ease-in-out;
+
+}
+.main div{
+
+   
+    margin-top:10px ;
+    margin-bottom: 10px;
+    overflow:hidden  ;
+}
+.main div :hover img{
+  transform: scale(1.2);
+z-index: 1;
+}
+
+
+
+.android-apps-tag{
+    background-color: var(--green);
+    font-weight: var(--fw800);
+    color:var(--white) ;
+    padding: 3px 10px;
+    border-radius: 5px;
+    width:fit-content;
+position: absolute; 
+z-index: 2;
+font-size: 13px;
+}
+.android-games-tag{
+    background-color: var(--pink);
+    color:var(--white) ;
+    padding: 3px 10px;
+    border-radius: 5px;
+    width:fit-content;
+position: absolute; 
+z-index: 2;
+font-size: 13px;
+
+
+}
+
+
+footer{
+color:var(--footer);
+padding-top: 20px;
+}
+footer a{
+color:var(--footer);
+    text-decoration: none;
+}
+footer a{
+    color:var(--footer);
+     
+    }
+   footer .fab{
+        font-size: 30px;
+        padding: 20px;
+    }
+ .fab:hover{
+        transform: scale(1.2);
+    }
+.share_icon{
+font-size: 22px !important;
+padding: 10px;
+}
+/* styling to 10 video apps page*/
+small{
+    font-size: 10px;
+}
+#download_btn{
+    font-family: 'Rubik', sans-serif;
+    background-image: linear-gradient(to bottom, var(--bg), var(--bg4));
+padding: 15px;
+width: fit-content;
+}
+#download_btn:hover{
+border: 2px solid #8f42e7;
+}
+.thumb_img{
+    width:150px;
+    height:150px;
+    margin: auto;
+    display: block;
+}
+.img-thumbnail{
+    background:none;
+    border: none;
+}
+.border-yellow{
+    border-bottom:solid 2px gold;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.ad{
+background:var(--bg3);
+padding: 10px;
+}
+.links{
+    color:var(--link);
+    text-decoration: none !important;
+}
+.links:hover{
+    color:var(--linkhover);
+}
+.author_img{
+    width: 60px;
+}
+.author_container{
+    padding:20px 40px;
+    width: fit-content;
+    background:var(--bg2);
+}
+.caption{
+    background:var(--bg2);
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+.no_input_border:focus{
+    border: none;
+    outline: none;
+}
+form{
+    background:var(--bg3);
+    text-align: center;
+    padding: 20px 0px;
+}
+.homepage_recent_posts img{
+    width: 100%;
+    height: 80%;
+}
+.homepage_recent_posts div{
+    box-sizing: border-box;
+    margin: 10px 0px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:991.98px){
+    .navbar-nav{
+transition: all 1s ease-in-out;
+
+        padding-top: 50px;
+position: absolute;
+margin-top: 5px;
+height: 100vh;
+width:300px;
+background:var(--black);
+left: 0px;
+    }
+    .teaser{
+        border-top:1px solid var(--white);
+        display: inline;
+    }
+    .nav-link:hover{
+        color: var(--white);
+        padding-left:5px;
+        border-radius: 5px;
+       }
+       nav-link{
+           font-weight: var(--fw800);
+       }
+       #logo{
+   
+    font-size: 20px;
+  
+    }
+    .nav-item{
+        border-bottom:none !important;
+
+    }
+}
+
+
+@media screen and (max-width:767px){
+
+    .nav-item{
+        margin-top: 15px;
+    }
+    .carousel-captions h3{
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width:540px){
+    .logo{
+        width:150px;
+         height:40px;
+    }
+}
+@media screen and (max-width:400px){
+   footer .fab{
+        font-size: 18px;
+        padding: 10px;
+    }
+    .share_icon{
+        font-size: 18px !important;
+        }
+    .navbar-nav{
+
+width:100vw;
+
+    }
+    #download_btn{
+
+    padding: 13px;
+    font-weight: 500;
+    }
+}
