@@ -28,10 +28,12 @@
 
 html{
     cursor: url(glog/cursor2.png), auto !important;
-
+    scroll-behavior: smooth;
     background: var(--bg);
 
 }
+
+
 body{
     scrollbar-width: thin;
     scrollbar-color: #02738e #CFD8DC;
