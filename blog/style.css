@@ -28,11 +28,15 @@
 
 html{
     cursor: url(glog/cursor2.png), auto !important;
-
+    scroll-behavior: smooth;
     background: var(--bg);
 
 }
+
+
 body{
+    scrollbar-width: thin;
+    scrollbar-color: #02738e #CFD8DC;
     font-family: 'Montserrat', sans-serif;
     background: var(--bg)  ;
     cursor: url(glog/cursor2.png), auto !important;
@@ -40,6 +44,21 @@ body{
 color: var(--white);
 
 }
+
+body::-webkit-scrollbar {
+    width: 11px;
+  }
+   
+  body::-webkit-scrollbar-track {
+    background: #CFD8DC;
+  }
+   
+  body::-webkit-scrollbar-thumb {
+         background-color: #02738e;
+      border-radius: 6px;
+      border: 3px solid #CFD8DC;
+  }
+
 a{
     cursor: url(glog/cursor2.png), auto !important;
 
